@@ -13,7 +13,7 @@ import com.example.steven.learnkotlin.R
  */
 class NormalItemAdapter : RecyclerView.Adapter<NormalItemAdapter.NormalItemViewHolder>() {
 
-    var itemList = listOf<String>("a", "b", "c")
+    var itemList = listOf<String>("a", "b", "c", "b", "c", "b", "c", "b", "c", "b", "c", "b", "c", "b", "c", "b", "c", "b", "c", "b", "c", "b", "c", "b", "c", "b", "c")
 
     override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): NormalItemViewHolder {
         return NormalItemViewHolder(LayoutInflater.from(parent!!.context).inflate(R.layout.view_normal_item, parent, false))

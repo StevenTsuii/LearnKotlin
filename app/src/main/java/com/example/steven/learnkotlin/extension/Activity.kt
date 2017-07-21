@@ -4,7 +4,7 @@ import android.app.Activity
 import android.app.Fragment
 import android.content.Intent
 import android.widget.Toast
-import com.example.steven.learnkotlin.SecondActivity
+import com.example.steven.learnkotlin.ui.SecondActivity
 import kotlin.reflect.KClass
 
 /**

@@ -1,7 +1,8 @@
-package com.example.steven.learnkotlin
+package com.example.steven.learnkotlin.ui
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import com.example.steven.learnkotlin.R
 import com.example.steven.learnkotlin.extension.addFragmentToContainer
 
 /**
@@ -11,7 +12,7 @@ class SecondActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_second)
+        setContentView(R.layout.activity)
         addFragmentToContainer(R.id.container, SecondFragment())
     }
 }
